@@ -1,0 +1,33 @@
+$fonts_path: '../fonts/';
+$image_path: '../img/';
+
+$main-color1: #f1c011;
+$main-color2: #f2cd4a;
+$blue1: #1a7adb;
+$blue2: #1c439b;
+$blue3: #064d96;
+$blue4: #2427a2;
+$date: #1b85ef;
+$text: #000;
+$dark-grey: #404040;
+$medium-grey: #4f4f4f;
+//@include ratio(16, 9);
+//background-size: cover;
+//background-repeat: no-repeat;
+@mixin ratio($width, $height) {
+  position: relative;
+  &:before {
+    display: block;
+    content: " ";
+    width: 100%;
+    padding-top: ($height / $width) * 100%;
+  }
+
+  > .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}

@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Curtains main</title>
+  <!--logo-->
+  <link rel="icon" href="assets/img/1.png">
+  <!--styles-->
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <!--font awesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <!--bootstrap-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!--swiper slider-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+</head>
+<body>
+<header>
+  <div class="container header-container">
+    <div class="row">
+      <div class="col-md-3 header-container__logo">
+        <a href="#"><img src="assets/img/logo.png" alt="logo"></a>
+      </div>
+      <div class="col-md-9 header-container__links">
+        <nav>
+          <ul>
+            <li class="active"><a href="#">Наши работы</a></li>
+            <li><a href="#">Советы дизайнера</a></li>
+            <li><a href="#">Оплата и доставка</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="header-container__phones">
+          <img src="assets/img/smartphone.png" alt="phone">
+          <div>
+            <p>+38(093)8080880</p>
+            <p>+38(093)8080880</p>
+            <a href="#">Обратный звонок</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!--search line-->
+<div class="container search-line">
+  <div class="row">
+    <div class="col-md-3 search-line__filters">
+      <p>каталог товаров</p>
+    </div>
+    <div class="col-md-9 search-line__input">
+      <form action='/search' method='get' class='form'>
+        <input type='text' name='search' placeholder='Что вы ищите?'/>
+        <button type='submit'></button>
+      </form>
+      <div class="search-line__basket">
+        <a href="#">
+          <div>
+            <img src="assets/img/basket.png" alt="basket">
+            <i>2</i>
+          </div>
+          <p>1800$</p>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="anchor">
+        <a href="#" class="active">Главная</a>
+        <a href="#">Советы дизайнера</a>
+      </div>
+      <h2>Шторы готовые</h2>
+      <select name="" id="">
+        <option value="rec">рекомендации</option>
+      </select>
+    </div>
+    <div class="col-md-3 sidebar-filters">
+      <h2>Категории</h2>
+      <div>
+        <div>Шторы готовые</div>
+        <nav>
+          <ul>
+            <li><a href="#">Тюль</a></li>
+            <li><a href="#">Ткани</a></li>
+            <li><a href="#">Карнизы</a></li>
+          </ul>
+        </nav>
+      </div>
+      <h2>Цена</h2>
+
+    </div>
+    <div class="col-md-9">
+
+    </div>
+  </div>
+</div>
+
+
+<footer class="">
+  <div class="container">
+    <div class="row">
+      <div class="col-md contacts-footer">
+        <h2>Контакты</h2>
+        <nav>
+          <ul>
+            <li class="location"><a href="#">
+              <span><i class="fas fa-map-marker-alt"></i></span>Украина, г.Харьков, м.Барабашово</a>
+            </li>
+            <li class="phone">
+              <a href="#">
+                <span>
+                  <i class="fas fa-phone"></i>
+                </span>096 90 909 90
+              </a>
+            </li>
+            <li class="mail"><a href="#">
+              <span><i class="fas fa-envelope"></i></span>example@gmail.com</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col-md">
+        <h2>Покупателям</h2>
+        <nav>
+          <ul>
+            <li><a href="#">Каталог</a></li>
+            <li><a href="#">Наши работы</a></li>
+            <li><a href="#">Советы дизайнера</a></li>
+            <li><a href="#">Оплата и доставка</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col-md-4">
+        <h4>остались вопросы?</h4>
+        <a href="#" class="footer-btn">обратный звонок</a>
+      </div>
+      <div class="col-md">
+        <h2>Информация</h2>
+        <nav>
+          <ul>
+            <li><a href="#">Блог</a></li>
+            <li><a href="#">Сотрудничество</a></li>
+            <li><a href="#">Услуги дизайнера</a></li>
+            <li><a href="#">Оптовым покупателям</a></li>
+            <li><a href="#">Статьи</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col-md footer-social">
+        <h2>Мы в соц сетях</h2>
+        <nav>
+          <ul>
+            <li><a href="#"><span><i class="fab fa-facebook-f"></i></span>facebook</a></li>
+            <li><a href="#"><span><i class="fab fa-instagram"></i></span>instagram</a></li>
+            <li><a href="#"><span><i class="fab fa-twitter"></i></span>twitter</a></li>
+            <li><a href="#"><span><i class="fab fa-facebook-f"></i></span>facebook</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col-md-12 footer-line">
+        <p>© All Rights Reserved</p>
+        <span>2019</span>
+        <p>Design by OM</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<!--jquery-->
+<script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+<!--bootstrap-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+<!--swiper slider-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+<!--js-->
+<script src="assets/js/main.js"></script>
+</body>
+
+</html>
